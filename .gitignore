@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+.venv/
+
+# OCT datasets & models (too large for git)
+oct_industrial_dataset/images/
+oct_industrial_dataset/masks/
+oct_industrial_dataset/multi_defect/
+yolo_dataset/
+runs/
+*.pt
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
